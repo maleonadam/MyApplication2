@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Welcome <Adam>" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="31dp"
+            android:text="Balance"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="31dp"
+            android:text="Send Money"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="View Statement"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="31dp"
+            android:text="Last Transactions"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="Profile"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="31dp"
+            android:text="Logout"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"/>
+
+    </RelativeLayout>
+</LinearLayout>
